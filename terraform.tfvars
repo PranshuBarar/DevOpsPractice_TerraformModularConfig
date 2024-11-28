@@ -1,0 +1,9 @@
+vpc_ipv4_cidr_block = "10.0.0.0/16"
+vpc_name = "DemoVPC"
+region = "ap-south-1"
+num_private_subnets=4
+num_public_subnets=4
+private_subnet_ipv4_cidr_blocks=["10.0.0.0/20" , "10.0.16.0/20", "10.0.32.0/20", "10.0.48.0/20"]
+public_subnet_ipv4_cidr_blocks=["10.0.64.0/20", "10.0.80.0/20", "10.0.96.0/20", "10.0.112.0/20"]
+num_elastic_ips=1
+num_nat_gateways=1
